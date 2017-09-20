@@ -18,8 +18,8 @@
         "mapping" : {
             "timestamp" : "@timestamp",
             "display_timestamp" : "@timestamp",
-            "hostname" : "container_name",
-            "program": "@log_name",
+            "hostname" : "kubernetes.pod_name",
+            "program": "kubernetes.container_name",
             "message": "log"
         }
       }
